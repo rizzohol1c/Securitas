@@ -68,6 +68,9 @@ detalhado (checklists, requisitos, mitigações).
 │
 ├── LICENSE                          # MIT (o repo; cada skill declara a própria license)
 ├── ARCHITECTURE.md                  # este arquivo
+├── CLAUDE.md                        # guia operacional para agentes de IA trabalhando no repo
+├── AGENTS.md -> CLAUDE.md           # symlink: mesmo conteúdo, lido por Codex/Cursor/outros
+├── GEMINI.md -> CLAUDE.md           # symlink: mesmo conteúdo, lido pelo Gemini CLI
 └── README.md
 ```
 

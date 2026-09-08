@@ -81,6 +81,7 @@ por script, ver `ARCHITECTURE.md`):
 ├── scripts/                     # regenera skills framework-mirror da fonte oficial + valida schema
 ├── .github/workflows/           # CI: validação de schema + checagem semanal de frescor
 ├── ARCHITECTURE.md              # como tudo isso se encaixa
+├── CLAUDE.md                    # guia para agentes de IA (AGENTS.md e GEMINI.md são symlinks para este)
 ├── LICENSE                      # MIT
 └── README.md
 ```
