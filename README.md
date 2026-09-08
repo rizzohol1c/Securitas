@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="assets/banner.svg" alt="Securitas" width="720">
+  <img src="assets/banner.jpg" alt="Securitas" width="900">
 </h1>
 
 <p align="center">
