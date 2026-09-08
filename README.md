@@ -1,7 +1,7 @@
 # Securitas
 
-*Securitas* — deusa romana da segurança e da estabilidade. Nome do
-projeto: skills de segurança e boas práticas para quem constrói produtos
+*Securitas* — deusa romana da segurança e da estabilidade.
+Skills de segurança e boas práticas para quem constrói produtos
 SaaS usando ferramentas de IA (Claude Code, Cursor, Copilot, v0, etc.) e
 o fluxo de "vibe coding" — onde grande parte do código é gerado por IA
 em ciclos rápidos de iteração.
