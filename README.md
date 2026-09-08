@@ -23,12 +23,11 @@ dependências aceitas sem revisão, prompts vulneráveis a injeção. A IA que
 gera o código raramente pensa em segurança por padrão. Quem precisa
 pensar nisso é quem revisa.
 
-Este repositório é meu registro de estudos como iniciante em
-cibersegurança. Cada pasta numerada (`01`–`10`) é um tema que documento
-à medida que aprendo, com foco prático em SaaS construídos com apoio de
-IA. Dentro desses temas, os frameworks de base e os padrões de
-vulnerabilidade mais recorrentes viram skills instaláveis de verdade em
-[`skills/`](skills/README.md): arquivos `SKILL.md` no formato aberto
+Cada pasta numerada (`01`–`10`) documenta um tema de segurança com foco
+prático em SaaS construído com apoio de IA. Dentro desses temas, os
+frameworks de base e os padrões de vulnerabilidade mais recorrentes
+viram skills instaláveis de verdade em [`skills/`](skills/README.md):
+arquivos `SKILL.md` no formato aberto
 [Agent Skills](https://agentskills.io/specification), que qualquer
 agente de IA compatível (Claude Code, Codex, Copilot CLI, Gemini CLI
 etc.) instala e usa nativamente, não só lê como documentação.
@@ -87,9 +86,9 @@ por script, ver `ARCHITECTURE.md`):
 ```
 
 Cada pasta temática tem seu próprio `README.md` com o índice do
-conteúdo, e cresce conforme eu estudo o tema. A lista completa de skills
-e como instalar estão em [`skills/README.md`](skills/README.md); o
-desenho completo do repositório está em [`ARCHITECTURE.md`](ARCHITECTURE.md).
+conteúdo. A lista completa de skills e como instalar estão em
+[`skills/README.md`](skills/README.md); o desenho completo do
+repositório está em [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
 ## Como uso este repositório
 
@@ -99,8 +98,3 @@ desenho completo do repositório está em [`ARCHITECTURE.md`](ARCHITECTURE.md).
    `02` a `06` antes de aceitar o PR/commit.
 3. Vulnerabilidades reais encontradas (sem dados sensíveis do cliente) viram
    estudo de caso na skill correspondente.
-
-## Status
-
-Em construção. Comecei os estudos, a estrutura está criada e o conteúdo
-vai sendo preenchido pasta por pasta.

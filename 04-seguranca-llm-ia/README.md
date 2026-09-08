@@ -12,15 +12,8 @@ mitigação e exemplo de ataque aplicado a SaaS vibe-coded.
 
 - [`excessive-agent-permissions`](../skills/excessive-agent-permissions/SKILL.md) — agente com tool destrutiva sem confirmação ou checagem de permissão (LLM06)
 
-## Índice planejado
-
-- [ ] LLM01 — Prompt Injection
-- [ ] LLM02 — Sensitive Information Disclosure
-- [ ] LLM03 — Supply Chain
-- [ ] LLM04 — Data and Model Poisoning
-- [ ] LLM05 — Improper Output Handling
-- [x] LLM06 — Excessive Agency (`excessive-agent-permissions`)
-- [ ] LLM07 — System Prompt Leakage
-- [ ] LLM08 — Vector and Embedding Weaknesses
-- [ ] LLM09 — Misinformation
-- [ ] LLM10 — Unbounded Consumption
+Para os outros 9 riscos do OWASP LLM Top 10 (LLM01–LLM05, LLM07–LLM10),
+o texto oficial completo já está espelhado na skill
+[`owasp-llm-top10`](../skills/owasp-llm-top10/SKILL.md) — cada um vira
+uma skill `vulnerability-pattern` própria aqui conforme os padrões forem
+documentados.

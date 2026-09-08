@@ -8,8 +8,8 @@ Traduzidos a partir do
 mínimo inegociável) e itens de L2 relevantes para SaaS, organizados
 pelos mesmos capítulos V1–V17 do padrão.
 
-## Índice planejado
+## Checklists
 
-- [x] Checklist pré-deploy (ASVS L1) — [`pre-deploy-checklist-asvs-l1.md`](pre-deploy-checklist-asvs-l1.md)
-- [ ] Checklist de revisão de código gerado por IA
-- [ ] Checklist de review de agente/feature com LLM (OWASP LLM Top 10)
+- [Checklist pré-deploy (ASVS L1)](pre-deploy-checklist-asvs-l1.md) — os
+  70 requisitos de nível L1 do OWASP ASVS 5.0.0, extraídos da skill
+  [`owasp-asvs`](../skills/owasp-asvs/SKILL.md).
