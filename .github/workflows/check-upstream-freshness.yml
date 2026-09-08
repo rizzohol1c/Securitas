@@ -1,0 +1,29 @@
+name: Check upstream freshness
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # toda segunda, 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Re-run sync scripts against upstream
+        run: |
+          ./scripts/sync-owasp-top10-web.sh
+          ./scripts/sync-owasp-llm-top10.sh
+          python3 scripts/sync-owasp-asvs.py
+          python3 scripts/sync-nist-ssdf.py
+      - name: Fail if upstream content drifted from what's committed
+        run: |
+          if ! git diff --quiet -- skills/; then
+            echo "::warning::Conteúdo espelhado das skills de framework mudou upstream. Rode os scripts de sync localmente, revise o diff e commite a atualização."
+            git diff --stat -- skills/
+            exit 1
+          fi
+          echo "Nada mudou upstream — skills de framework seguem em dia."
