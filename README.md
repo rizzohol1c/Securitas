@@ -1,33 +1,40 @@
-# Securitas
+<h1 align="center">
+  <img src="assets/banner.svg" alt="Securitas" width="720">
+</h1>
 
-*Securitas* — deusa romana da segurança e da estabilidade. Nome do
-projeto: skills de segurança e boas práticas para quem constrói produtos
-SaaS usando ferramentas de IA (Claude Code, Cursor, Copilot, v0, etc.) e
-o fluxo de "vibe coding" — onde grande parte do código é gerado por IA
-em ciclos rápidos de iteração.
+<p align="center">
+  <a href="https://github.com/rizzohol1c/Securitas/actions/workflows/validate-skills.yml"><img src="https://github.com/rizzohol1c/Securitas/actions/workflows/validate-skills.yml/badge.svg" alt="Validate skills"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-C8A24B" alt="License: MIT"></a>
+  <a href="skills/README.md"><img src="https://img.shields.io/badge/skills-14-C8A24B" alt="14 skills"></a>
+  <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/format-agentskills.io-C8A24B" alt="Agent Skills spec"></a>
+</p>
+
+*Securitas*, deusa romana da segurança e da estabilidade, dá nome a este
+projeto: skills de segurança e boas práticas para quem constrói SaaS com
+ferramentas de IA (Claude Code, Cursor, Copilot, v0 etc.), no fluxo de
+"vibe coding", onde boa parte do código nasce de IA em ciclos rápidos de
+iteração.
 
 ## Por que este repositório existe
 
-Vibe coding acelera a criação de produtos, mas também acelera a criação de
-vulnerabilidades: segredos commitados sem querer, permissões abertas demais
-no banco, dependências aceitas sem revisão, prompts vulneráveis a injeção.
-A IA que gera o código raramente pensa em segurança por padrão — quem
-precisa pensar é quem revisa.
+Vibe coding acelera a criação de produtos, mas também acelera vulnerabilidades:
+segredos commitados sem querer, permissões abertas demais no banco,
+dependências aceitas sem revisão, prompts vulneráveis a injeção. A IA que
+gera o código raramente pensa em segurança por padrão. Quem precisa
+pensar nisso é quem revisa.
 
 Este repositório é meu registro de estudos como iniciante em
-cibersegurança: cada pasta numerada (`01`–`10`) é um **tema** que estou
-documentando à medida que aprendo, com foco prático em SaaS construídos
-com apoio de IA. Dentro desses temas, tanto os frameworks de base quanto
-os padrões de vulnerabilidade mais recorrentes viram **skills
-instaláveis de verdade** em [`skills/`](skills/README.md) — arquivos
-`SKILL.md` no formato aberto [Agent Skills](https://agentskills.io/specification),
-que qualquer agente de IA compatível (Claude Code, Codex, Copilot CLI,
-Gemini CLI, etc.) consegue instalar e usar nativamente, não só ler como
-documentação.
+cibersegurança. Cada pasta numerada (`01`–`10`) é um tema que documento
+à medida que aprendo, com foco prático em SaaS construídos com apoio de
+IA. Dentro desses temas, os frameworks de base e os padrões de
+vulnerabilidade mais recorrentes viram skills instaláveis de verdade em
+[`skills/`](skills/README.md): arquivos `SKILL.md` no formato aberto
+[Agent Skills](https://agentskills.io/specification), que qualquer
+agente de IA compatível (Claude Code, Codex, Copilot CLI, Gemini CLI
+etc.) instala e usa nativamente, não só lê como documentação.
 
-Como tudo isso se encaixa — estrutura, taxonomia das skills, formato do
-`SKILL.md`, metodologia de validação — está documentado em
-[`ARCHITECTURE.md`](ARCHITECTURE.md).
+Estrutura, taxonomia das skills, formato do `SKILL.md` e metodologia de
+validação estão documentados em [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
 ## Objetivos
 
@@ -44,14 +51,14 @@ Como tudo isso se encaixa — estrutura, taxonomia das skills, formato do
 Todo o conteúdo parte de quatro frameworks reconhecidos da indústria,
 documentados em [`00-frameworks-base/`](00-frameworks-base/README.md) e
 espelhados como skill em `skills/` (conteúdo oficial completo, atualizado
-por script — ver `ARCHITECTURE.md`):
+por script, ver `ARCHITECTURE.md`):
 
-- **OWASP Top 10** — vulnerabilidades clássicas de aplicação web.
-- **OWASP Top 10 for LLM Applications** (2025) — riscos específicos de IA:
+- **OWASP Top 10.** Vulnerabilidades clássicas de aplicação web.
+- **OWASP Top 10 for LLM Applications** (2025). Riscos específicos de IA:
   prompt injection, improper output handling, excessive agency etc.
-- **OWASP ASVS** — transforma os dois acima em requisitos verificáveis,
+- **OWASP ASVS.** Transforma os dois acima em requisitos verificáveis,
   com nível de rigor (L1/L2/L3).
-- **NIST SSDF** (+ perfil para IA generativa, SP 800-218A) — posiciona
+- **NIST SSDF** (+ perfil para IA generativa, SP 800-218A). Posiciona
   cada prática no ciclo de vida do desenvolvimento, não só como auditoria
   no final.
 
@@ -78,11 +85,10 @@ por script — ver `ARCHITECTURE.md`):
 └── README.md
 ```
 
-Cada pasta temática terá seu próprio `README.md` com o índice do conteúdo,
-e vai crescendo conforme eu estudo o tema. As skills em `skills/` são o
-formato "pronto para usar" desse conteúdo — ver [`skills/README.md`](skills/README.md)
-para a lista completa e como instalar, ou [`ARCHITECTURE.md`](ARCHITECTURE.md)
-para o desenho completo.
+Cada pasta temática tem seu próprio `README.md` com o índice do
+conteúdo, e cresce conforme eu estudo o tema. A lista completa de skills
+e como instalar estão em [`skills/README.md`](skills/README.md); o
+desenho completo do repositório está em [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
 ## Como uso este repositório
 
@@ -95,5 +101,5 @@ para o desenho completo.
 
 ## Status
 
-🟡 Em construção — começando os estudos. Estrutura criada, conteúdo sendo
-preenchido pasta por pasta.
+Em construção. Comecei os estudos, a estrutura está criada e o conteúdo
+vai sendo preenchido pasta por pasta.

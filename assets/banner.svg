@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="960" height="280">
+  <defs>
+    <radialGradient id="glow" cx="18%" cy="52%" r="70%">
+      <stop offset="0%" stop-color="#1B2432" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="1"/>
+    </radialGradient>
+    <path id="leaf" d="M0,-7.5 C3.4,-4.4 3.4,4.4 0,7.5 C-3.4,4.4 -3.4,-4.4 0,-7.5 Z"/>
+  </defs>
+
+  <rect width="960" height="280" fill="url(#glow)"/>
+
+  <!-- laurel, left branch -->
+  <path d="M92,178 Q72,140 88,98" stroke="#C8A24B" stroke-width="2.25" fill="none"
+        stroke-linecap="round" opacity="0.9"/>
+  <g fill="#C8A24B" opacity="0.9">
+    <use href="#leaf" x="87" y="168" transform="rotate(-60 87 168)"/>
+    <use href="#leaf" x="78" y="150" transform="rotate(-35 78 150)"/>
+    <use href="#leaf" x="75" y="130" transform="rotate(-8 75 130)"/>
+    <use href="#leaf" x="80" y="111" transform="rotate(18 80 111)"/>
+    <use href="#leaf" x="89" y="97" transform="rotate(40 89 97)"/>
+  </g>
+
+  <!-- laurel, right branch -->
+  <path d="M208,178 Q228,140 212,98" stroke="#C8A24B" stroke-width="2.25" fill="none"
+        stroke-linecap="round" opacity="0.9"/>
+  <g fill="#C8A24B" opacity="0.9">
+    <use href="#leaf" x="213" y="168" transform="rotate(60 213 168)"/>
+    <use href="#leaf" x="222" y="150" transform="rotate(35 222 150)"/>
+    <use href="#leaf" x="225" y="130" transform="rotate(8 225 130)"/>
+    <use href="#leaf" x="220" y="111" transform="rotate(-18 220 111)"/>
+    <use href="#leaf" x="211" y="97" transform="rotate(-40 211 97)"/>
+  </g>
+
+  <!-- shield -->
+  <path d="M150,66 L202,84 C202,140 185,186 150,217 C115,186 98,140 98,84 Z"
+        fill="none" stroke="#C8A24B" stroke-width="4" stroke-linejoin="round"/>
+  <!-- keyhole emblem -->
+  <circle cx="150" cy="124" r="11" fill="#C8A24B"/>
+  <path d="M144,133 L156,133 L151.5,160 L148.5,160 Z" fill="#C8A24B"/>
+
+  <!-- divider -->
+  <line x1="250" y1="70" x2="250" y2="210" stroke="#C8A24B" stroke-width="1" opacity="0.4"/>
+
+  <!-- wordmark -->
+  <text x="280" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="66"
+        font-weight="700" letter-spacing="5" fill="#F3EEE3">SECURITAS</text>
+
+  <!-- tagline -->
+  <text x="282" y="184" font-family="Helvetica, Arial, sans-serif" font-size="18"
+        letter-spacing="1.2" fill="#D8BD84">Skills de seguran&#231;a para software constru&#237;do com IA</text>
+</svg>
