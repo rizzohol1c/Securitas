@@ -35,6 +35,9 @@ catálogo + instruções de instalação.
 | [`ssrf-prevention`](ssrf-prevention/SKILL.md) | Requisição HTTP a partir de URL do usuário atingindo rede interna/metadata de nuvem |
 | [`webhook-signature-verification`](webhook-signature-verification/SKILL.md) | Webhook processado sem verificar assinatura, timestamp ou idempotência |
 | [`excessive-agent-permissions`](excessive-agent-permissions/SKILL.md) | Agente de IA com tool destrutiva sem confirmação ou checagem de permissão |
+| [`dependency-supply-chain-review`](dependency-supply-chain-review/SKILL.md) | Pacote instalado só porque a IA sugeriu, sem confirmar que existe e é mantido |
+| [`sensitive-data-at-rest`](sensitive-data-at-rest/SKILL.md) | Dado sensível (CPF, cartão, saúde) guardado sem criptografia adequada |
+| [`ci-cd-pipeline-hardening`](ci-cd-pipeline-hardening/SKILL.md) | Secret de produção acessível a PR de fork, branch sem proteção |
 
 ## Como instalar
 

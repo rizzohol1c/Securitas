@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/rizzohol1c/Securitas/actions/workflows/validate-skills.yml"><img src="https://github.com/rizzohol1c/Securitas/actions/workflows/validate-skills.yml/badge.svg" alt="Validate skills"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-C8A24B" alt="License: MIT"></a>
-  <a href="skills/README.md"><img src="https://img.shields.io/badge/skills-14-C8A24B" alt="14 skills"></a>
+  <a href="skills/README.md"><img src="https://img.shields.io/badge/skills-17-C8A24B" alt="17 skills"></a>
   <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/format-agentskills.io-C8A24B" alt="Agent Skills spec"></a>
 </p>
 
@@ -77,7 +77,7 @@ por script, ver `ARCHITECTURE.md`):
 ├── 08-ci-cd-deploy/             # doc: pipelines, secrets em CI, revisão antes de merge
 ├── 09-monitoramento-resposta/   # doc: logging, alertas, plano de resposta a incidentes
 ├── 10-checklists-templates/     # doc: checklists prontos para usar, derivados do ASVS
-├── skills/                      # PRODUTO: skills instaláveis (Agent Skills spec) — 4 framework-mirror + 10 vulnerability-pattern
+├── skills/                      # PRODUTO: skills instaláveis (Agent Skills spec) — 4 framework-mirror + 13 vulnerability-pattern
 ├── scripts/                     # regenera skills framework-mirror da fonte oficial + valida schema
 ├── .github/workflows/           # CI: validação de schema + checagem semanal de frescor
 ├── ARCHITECTURE.md              # como tudo isso se encaixa

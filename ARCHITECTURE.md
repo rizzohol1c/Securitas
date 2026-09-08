@@ -53,7 +53,10 @@ detalhado (checklists, requisitos, mitigações).
 │   ├── error-handling-leaks/        # type: vulnerability-pattern (self-contained)
 │   ├── ssrf-prevention/             # type: vulnerability-pattern (self-contained)
 │   ├── webhook-signature-verification/ # type: vulnerability-pattern (self-contained)
-│   └── excessive-agent-permissions/ # type: vulnerability-pattern (self-contained)
+│   ├── excessive-agent-permissions/ # type: vulnerability-pattern (self-contained)
+│   ├── dependency-supply-chain-review/ # type: vulnerability-pattern (self-contained)
+│   ├── sensitive-data-at-rest/      # type: vulnerability-pattern (self-contained)
+│   └── ci-cd-pipeline-hardening/    # type: vulnerability-pattern (self-contained)
 │
 ├── scripts/                         # regenera conteúdo espelhado + valida schema
 │   ├── sync-owasp-top10-web.sh
@@ -112,7 +115,7 @@ nas skills `framework-mirror`, ali descrevendo o intervalo completo que
 a skill cobre (ex.: `owasp_asvs: V1-V17`) em vez de um item específico.
 
 **Por que só duas categorias de `type`, e não uma taxonomia mais rica
-(severidade, OWASP category, linguagem, etc.):** com 14 skills, uma
+(severidade, OWASP category, linguagem, etc.):** com 17 skills, uma
 taxonomia elaborada é overhead sem benefício de busca. `type` existe
 porque muda *como a skill se mantém* (script vs. edição manual) — uma
 distinção operacional real, não decorativa. As demais dimensões (OWASP
@@ -227,7 +230,7 @@ Três camadas, cada uma pega um tipo de erro diferente:
 Roda local (`python3 scripts/validate_skill.py skills/*/`) e em CI
 (`.github/workflows/validate-skills.yml`). Também validado contra o
 validador oficial (`agentskills/agentskills` `skills-ref`) antes de cada
-skill nova entrar no repo — as 14 skills atuais passam nos dois.
+skill nova entrar no repo — as 17 skills atuais passam nos dois.
 
 ### 2. Frescor do conteúdo espelhado (automática, semanal)
 

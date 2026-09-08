@@ -10,6 +10,6 @@ pelos mesmos capítulos V1–V17 do padrão.
 
 ## Índice planejado
 
-- [ ] Checklist pré-deploy (ASVS L1)
+- [x] Checklist pré-deploy (ASVS L1) — [`pre-deploy-checklist-asvs-l1.md`](pre-deploy-checklist-asvs-l1.md)
 - [ ] Checklist de revisão de código gerado por IA
 - [ ] Checklist de review de agente/feature com LLM (OWASP LLM Top 10)
